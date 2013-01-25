@@ -205,10 +205,10 @@ $.Controller.extend('UI.Controllers.AppList',
 				
 				// background app
 				else {
-					$('#background_app_tabs').append($.View("//ui/views/pha/app_tab", {
+					/*$('#background_app_tabs').append($.View("//ui/views/pha/app_tab", {
 						isBackgroundApp: true,
 						app: app
-					}));
+					}));*/
 				}
 			});
 		}
